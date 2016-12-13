@@ -3,12 +3,17 @@
 	padding:0px;
 	margin:0px;
 }
+
 h1{
 	margin-top: 60px;
 	margin-bottom:40px;
 	color: #3B025E;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 }
+.inicio, .about, .habilidades, .proyectos, .contactame{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
 .navbar-default {
     background-color: #f8f8f8;
     border-color: transparent; 
@@ -24,12 +29,11 @@ h1{
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #F3E1FE;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-family: 'Julius Sans One', sans-serif;  
 	font-size: 18px;
 }
 .navbar-default .navbar-brand {
@@ -120,4 +124,8 @@ h1{
 	color: #3B025E;
 	font-size: 20px;
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 10px;
+    margin-left: -15px;
 }
